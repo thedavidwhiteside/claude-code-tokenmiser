@@ -1,0 +1,23 @@
+{
+  "name": "claude-code-tokenmiser",
+  "owner": {
+    "name": "David Whiteside"
+  },
+  "metadata": {
+    "description": "Daily token quota enforcement for Claude Code"
+  },
+  "plugins": [
+    {
+      "name": "tokenmiser",
+      "source": ".",
+      "description": "Enforces a daily token budget for Claude Code. Works with any backend — Bedrock, Vertex, direct API, or subscription.",
+      "version": "1.0.0",
+      "author": {
+        "name": "David Whiteside"
+      },
+      "repository": "https://github.com/thedavidwhiteside/claude-code-tokenmiser",
+      "license": "MIT",
+      "keywords": ["tokens", "quota", "budget", "bedrock"]
+    }
+  ]
+}
