@@ -19,10 +19,19 @@ Usage is stored in `~/.claude-token-quota/YYYY-MM-DD.json` and resets automatica
 ## Installation
 
 ```bash
-claude --plugin-dir /path/to/claude-code-tokenmiser
+claude plugin marketplace add thedavidwhiteside/claude-code-tokenmiser
+claude plugin install tokenmiser@claude-code-tokenmiser
 ```
 
-That's it. The plugin wires up the hooks and applies default settings automatically.
+This permanently installs the plugin. It will be active in all future Claude Code sessions without any extra flags.
+
+### Try before installing
+
+To test without installing permanently:
+
+```bash
+claude --plugin-dir /path/to/claude-code-tokenmiser
+```
 
 ### Configuration
 
