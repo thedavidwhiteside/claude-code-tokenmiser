@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "tokenmiser",
-      "source": ".",
+      "source": "./",
       "description": "Enforces a daily token budget for Claude Code. Works with any backend — Bedrock, Vertex, direct API, or subscription.",
       "version": "1.0.0",
       "author": {
