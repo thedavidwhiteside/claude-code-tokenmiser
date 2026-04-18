@@ -1,0 +1,28 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ~/.claude-token-quota/hooks/enforce_quota.py"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ~/.claude-token-quota/hooks/track_tokens.py"
+          }
+        ]
+      }
+    ]
+  },
+  "env": {
+    "TOKEN_QUOTA_DAILY": "500000",
+    "TOKEN_QUOTA_DIR": "~/.claude-token-quota"
+  }
+}

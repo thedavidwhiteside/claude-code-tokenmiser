@@ -1,0 +1,8 @@
+{
+  "name": "tokenmiser",
+  "version": "1.0.0",
+  "description": "Enforces a daily token budget for Claude Code. Works with any backend — Bedrock, Vertex, direct API, or subscription.",
+  "author": {
+    "name": "David Whiteside"
+  }
+}
