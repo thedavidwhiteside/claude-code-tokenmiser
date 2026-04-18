@@ -1,0 +1,15 @@
+language: python
+
+python:
+  - "3.9"
+  - "3.11"
+  - "3.12"
+
+install:
+  - pip install coverage coveralls
+
+script:
+  - coverage run -m unittest tests/test_plugin.py -v
+
+after_success:
+  - coveralls
