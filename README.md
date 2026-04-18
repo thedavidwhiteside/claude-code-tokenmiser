@@ -92,3 +92,4 @@ python3 -m unittest tests/test_plugin.py -v
 - Open a PR targeting `develop`
 
 For bug fixes or new features, please include or update tests in `tests/test_plugin.py`.
+
