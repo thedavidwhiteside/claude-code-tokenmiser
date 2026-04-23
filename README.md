@@ -1,4 +1,4 @@
-[![Tests](https://github.com/thedavidwhiteside/claude-code-tokenmiser/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/thedavidwhiteside/claude-code-tokenmiser/actions/workflows/test.yml)
+[![Tests](https://github.com/thedavidwhiteside/claude-code-tokenbudget/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/thedavidwhiteside/claude-code-tokenbudget/actions/workflows/test.yml)
 
 # Claude Code Daily Token Quota Plugin
 
@@ -19,8 +19,8 @@ Usage is stored in `~/.claude-token-quota/YYYY-MM-DD.json` and resets automatica
 ## Installation
 
 ```bash
-claude plugin marketplace add thedavidwhiteside/claude-code-tokenmiser
-claude plugin install tokenmiser@claude-code-tokenmiser
+claude plugin marketplace add thedavidwhiteside/claude-code-tokenbudget
+claude plugin install tokenbudget@claude-code-tokenbudget
 ```
 
 This permanently installs the plugin. It will be active in all future Claude Code sessions without any extra flags.
@@ -30,7 +30,7 @@ This permanently installs the plugin. It will be active in all future Claude Cod
 To test without installing permanently:
 
 ```bash
-claude --plugin-dir /path/to/claude-code-tokenmiser
+claude --plugin-dir /path/to/claude-code-tokenbudget
 ```
 
 ### Configuration
@@ -72,7 +72,7 @@ The default is 1,000,000 tokens/day (~$5.40/day at the example rates).
 
 ## Check status
 
-Run `/tokenmiser:status` inside any Claude Code session to see today's usage.
+Run `/tokenbudget:status` inside any Claude Code session to see today's usage.
 
 ![Status output](img/status.png)
 
