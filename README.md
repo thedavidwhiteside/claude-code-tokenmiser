@@ -23,14 +23,12 @@ claude plugin marketplace add thedavidwhiteside/claude-code-tokenbudget
 claude plugin install tokenbudget@claude-code-tokenbudget
 ```
 
-This permanently installs the plugin. It will be active in all future Claude Code sessions without any extra flags.
+This installs the plugin. It will be active in all future Claude Code sessions without any extra flags.
 
-### Try before installing
-
-To test without installing permanently:
+## Uninstall
 
 ```bash
-claude --plugin-dir /path/to/claude-code-tokenbudget
+claude plugin uninstall tokenbudget@claude-code-tokenbudget
 ```
 
 ### Configuration
